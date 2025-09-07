@@ -28,7 +28,7 @@
 version: '3'
 services:
   nullbrbot:
-    image: atomkk/nullbrbot:1.0
+    image: atomkk/nullbrbot:latest
     container_name: nullbrbot
     volumes:
       - /opt/nullbrbot/config:/nullbrbot/config
