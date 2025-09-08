@@ -42,7 +42,7 @@ services:
 docker compose up -d
 ```
 
-容器启动后，在 `/opt/nullbrbot/config` 目录下会自动生成 `config.json` 文件，内容如下：
+容器启动后，在 `/opt/nullbrbot/config` 目录下会自动生成 `config.json` 文件，内容如下：（切记！！！USER_CHAT_IDS和ALLOWED_GROUP_IDS不能留空或填“0”，否则所有人都可以使用。不需要群组使用的话，ALLOWED_GROUP_IDS设置为一个不存在的数值，如-9999999999。）
 
 ```json
 {
