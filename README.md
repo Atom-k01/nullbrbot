@@ -46,10 +46,11 @@ docker compose up -d
 
 ```json
 {
-  "TG_BOT_TOKEN": "请替换为通过@BotFather获取的机器人令牌",
-  "USER_CHAT_ID": "请替换为你的Telegram用户ID（纯数字）",
-  "NULLBR_APP_ID": "请替换为在nullbr.eu.org注册的应用ID",
-  "NULLBR_API_KEY": "请替换为在nullbr.eu.org获取的API密钥"
+  "TG_BOT_TOKEN": "123456:abcdefghijklmnopqrstuvwxyz",
+  "USER_CHAT_IDS": "123456789",
+  "ALLOWED_GROUP_IDS": "-9999999999",
+  "NULLBR_APP_ID": "abcdefghijklmnopqrstuvwxyz",
+  "NULLBR_API_KEY": "abcdefghijklmnopqrstuvwxyz"
 }
 ```
 
