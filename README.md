@@ -51,6 +51,8 @@ docker compose up -d
   "ALLOWED_GROUP_IDS": "-9999999999",
   "NULLBR_APP_ID": "abcdefghijklmnopqrstuvwxyz",
   "NULLBR_API_KEY": "abcdefghijklmnopqrstuvwxyz"
+  "SEARCH_COOLDOWN_SEC": "0",
+  "MESSAGE_EXPIRE_SEC": "0"
 }
 ```
 
@@ -68,6 +70,10 @@ docker compose restart
 ###############################################################################
 ## 更新日志
 
+### v1.3 - 2025年9月9日
+- 支持搜索冷却，消息自动删除
+- 修复一些问题
+-   
 ### v1.2 - 2025年9月8日
 - 🔧 重构代码，减少冗余
 - 🔍 在搜索结果中添加 `tmdbid` 
