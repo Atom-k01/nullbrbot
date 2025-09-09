@@ -50,7 +50,7 @@ docker compose up -d
   "USER_CHAT_IDS": "123456789",
   "ALLOWED_GROUP_IDS": "-9999999999",
   "NULLBR_APP_ID": "abcdefghijklmnopqrstuvwxyz",
-  "NULLBR_API_KEY": "abcdefghijklmnopqrstuvwxyz"
+  "NULLBR_API_KEY": "abcdefghijklmnopqrstuvwxyz",
   "SEARCH_COOLDOWN_SEC": "0",
   "MESSAGE_EXPIRE_SEC": "0"
 }
